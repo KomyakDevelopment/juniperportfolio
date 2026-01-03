@@ -42,7 +42,7 @@ const Portfolio = () => {
       description: 'Attacks and general particles.',
       tags: ['VFX', 'Particles', 'Attacks'],
       image: 'https://media.discordapp.net/attachments/1329091508535558308/1457103992990470187/image.png?ex=695ac957&is=695977d7&hm=bcfac746462b30823f19cf468ebd235ec166b98b3ad0dca0e81ff85a55da4359&=&format=webp&quality=lossless',
-      link: 'https://youtu.be/_oiZ8L1Ma2o'
+      link: 'https://youtu.be/_oiZ8L1Ma2o?si=agordveQh5iPGZ4F&t=22'
     },
    {
       id: 6,
