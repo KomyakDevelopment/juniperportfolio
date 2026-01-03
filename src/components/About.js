@@ -5,8 +5,7 @@ import styles from './About.module.css';
 const About = () => {
   const skills = [
     { name: 'VFX Design', level: 95 },
-    { name: 'Animation', level: 90 },
-    { name: 'Particle Systems', level: 88 }
+    { name: 'Animation', level: 90 }
   ];
 
   const containerVariants = {

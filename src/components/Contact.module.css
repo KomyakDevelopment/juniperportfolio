@@ -33,24 +33,26 @@
 }
 
 .content {
-  display: grid;
-  grid-template-columns: 1.2fr 1fr;
-  gap: 4rem;
+  display: flex;
+  justify-content: center;
   align-items: start;
 }
 
 .formContainer {
   background: rgba(30, 41, 59, 0.5);
-  padding: 2.5rem;
+  padding: 3.5rem;
   border-radius: 20px;
   border: 1px solid var(--border);
   backdrop-filter: blur(10px);
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .form {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .formGroup {
@@ -62,13 +64,13 @@
 .label {
   font-weight: 500;
   color: var(--text-primary);
-  font-size: 0.95rem;
+  font-size: 1.1rem;
 }
 
 .input,
 .textarea {
-  padding: 1rem;
-  font-size: 1rem;
+  padding: 1.25rem;
+  font-size: 1.1rem;
   background: rgba(15, 23, 42, 0.5);
   border: 1px solid var(--border);
   border-radius: 10px;
@@ -91,12 +93,12 @@
 
 .textarea {
   resize: vertical;
-  min-height: 150px;
+  min-height: 180px;
 }
 
 .submitButton {
-  padding: 1rem 2.5rem;
-  font-size: 1.1rem;
+  padding: 1.25rem 3rem;
+  font-size: 1.2rem;
   font-weight: 600;
   background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
   color: white;
@@ -107,6 +109,10 @@
   box-shadow: 0 4px 20px rgba(99, 102, 241, 0.3);
   font-family: inherit;
   margin-top: 0.5rem;
+  width: 100%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .submitButton:hover:not(:disabled) {
@@ -200,17 +206,7 @@
 }
 
 @media (max-width: 968px) {
-  .content {
-    grid-template-columns: 1fr;
-    gap: 3rem;
-  }
-
-  .infoContainer {
-    position: static;
-  }
-
-  .formContainer,
-  .infoCard {
+  .formContainer {
     padding: 2rem;
   }
 }
