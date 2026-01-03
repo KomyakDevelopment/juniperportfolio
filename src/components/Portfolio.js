@@ -50,7 +50,7 @@ const Portfolio = () => {
       description: 'Custom trails for units',
       tags: ['VFX', 'Trails'],
       image: 'https://media.discordapp.net/attachments/1329091508535558308/1457103993342918852/image.png?ex=695ac957&is=695977d7&hm=6ab740dd32accd7f173cb4213d401620951787b7394aad89e1a22c0dea7895ec&=&format=webp&quality=lossless',
-      link: 'https://youtu.be/ncP24o4eyZM'
+      link: 'https://youtu.be/_oiZ8L1Ma2o?si=CADzAxa49J9dQPhC&t=34'
     },
     {
       id: 7,
