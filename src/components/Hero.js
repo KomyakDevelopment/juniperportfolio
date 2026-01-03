@@ -113,25 +113,6 @@ const Hero = () => {
             </motion.button>
           </motion.div>
         </motion.div>
-
-        <motion.div
-          className={styles.visual}
-          variants={itemVariants}
-        >
-          <div className={styles.glow} />
-          <motion.div
-            className={styles.floatingShape}
-            animate={{
-              y: [0, -20, 0],
-              rotate: [0, 5, 0]
-            }}
-            transition={{
-              duration: 4,
-              repeat: Infinity,
-              ease: 'easeInOut'
-            }}
-          />
-        </motion.div>
       </motion.div>
 
       <motion.div
