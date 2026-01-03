@@ -35,32 +35,6 @@ const Contact = () => {
     }, 1500);
   };
 
-  const socialLinks = [
-    {
-      name: 'Roblox',
-      url: '#',
-      icon: '🎮',
-      color: '#6366f1'
-    },
-    {
-      name: 'Twitter',
-      url: '#',
-      icon: '🐦',
-      color: '#1DA1F2'
-    },
-    {
-      name: 'Discord',
-      url: '#',
-      icon: '💬',
-      color: '#5865F2'
-    },
-    {
-      name: 'GitHub',
-      url: '#',
-      icon: '💻',
-      color: '#333'
-    }
-  ];
 
   return (
     <section id="contact" className={styles.contact}>
@@ -155,45 +129,6 @@ const Contact = () => {
                 </motion.div>
               )}
             </form>
-          </motion.div>
-
-          <motion.div
-            className={styles.infoContainer}
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: '-100px' }}
-            transition={{ duration: 0.6 }}
-          >
-            <div className={styles.infoCard}>
-              <h3 className={styles.infoTitle}>Let's Connect</h3>
-              <p className={styles.infoText}>
-                I'm always open to discussing new projects, creative ideas, or
-                opportunities to be part of your vision. Feel free to reach out
-                through the form or connect with me on social media.
-              </p>
-
-              <div className={styles.socialLinks}>
-                {socialLinks.map((social, index) => (
-                  <motion.a
-                    key={social.name}
-                    href={social.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.socialLink}
-                    style={{ '--color': social.color }}
-                    whileHover={{ scale: 1.1, y: -5 }}
-                    whileTap={{ scale: 0.95 }}
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: index * 0.1 }}
-                  >
-                    <span className={styles.socialIcon}>{social.icon}</span>
-                    <span className={styles.socialName}>{social.name}</span>
-                  </motion.a>
-                ))}
-              </div>
-            </div>
           </motion.div>
         </div>
       </div>

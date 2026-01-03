@@ -6,9 +6,7 @@ const About = () => {
   const skills = [
     { name: 'VFX Design', level: 95 },
     { name: 'Animation', level: 90 },
-    { name: 'Particle Systems', level: 88 },
-    { name: 'UI/UX Animation', level: 85 },
-    { name: 'Performance Optimization', level: 92 }
+    { name: 'Particle Systems', level: 88 }
   ];
 
   const containerVariants = {
