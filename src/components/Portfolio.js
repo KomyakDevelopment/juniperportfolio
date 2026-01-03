@@ -16,7 +16,7 @@ const Portfolio = () => {
       id: 2,
       title: 'Aura "Duality"',
       description: 'Fluid character idle and special VFX. Used in "Elemental Forge"',
-      tags: ['Animation', 'Aura'],
+      tags: ['VFX', 'Animation', 'Aura'],
       image: 'https://cdn.discordapp.com/attachments/1329091508535558308/1457104268871073832/image.png?ex=695ac999&is=69597819&hm=8a7baa3825769f4089fb740ea1df2da6daa2d0fac32fa233a4341e7ad465d5c3&',
       link: 'https://youtu.be/FsRAMIQGW4s?si=cOk3kQeOnpS7iWFa&t=4'
     },
@@ -67,6 +67,14 @@ const Portfolio = () => {
       tags: ['VFX', 'Currency', 'Trails', 'Impact'],
       image: 'https://media.discordapp.net/attachments/1329091508535558308/1457103994215469333/image.png?ex=695ac957&is=695977d7&hm=23ab99ad0d043eceeaddd4ddbe73eb2ba8cf96914201c9920a95f3ec7f49b45b&=&format=webp&quality=lossless',
       link: 'https://youtu.be/ZKZfR6qrXMs'
+    },
+    {
+      id: 9,
+      title: 'Runes VFX',
+      description: 'Idle VFX for character equippables',
+      tags: ['VFX', 'Particles', 'Aura'],
+      image: 'https://media.discordapp.net/attachments/1329091508535558308/1457103994735427645/image.png?ex=695ac958&is=695977d8&hm=aad00e05031805d5b66bd87cd9fd64f22025de93677abb8d32dd7155e7f0f7e4&=&format=webp&quality=lossless',
+      link: 'https://youtu.be/ncP24o4eyZM'
     }
   ];
 

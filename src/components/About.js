@@ -54,18 +54,13 @@ const About = () => {
           >
             <div className={styles.bio}>
               <p>
-                I'm a dedicated Roblox developer specializing in visual effects and animations.
-                With years of experience in the platform, I've mastered the art of creating
-                immersive and captivating visual experiences that enhance gameplay and storytelling.
+                I'm a dedicated Roblox developer specializing in VFX and animation. I've got a little over a years worth of experience on the platform in visual effects, but recently I've started incorporating animation to increase visual appeal.
               </p>
               <p>
-                My work focuses on pushing the boundaries of what's possible in Roblox, combining
-                technical expertise with creative vision to deliver stunning VFX and smooth animations
-                that perform flawlessly across all devices.
+                My work focuses on creating clean visual effects that aren't cluttered, unoptimized or cheaply executed. My goal is to efficiently deliver simple abilities along idle VFX to strengthen the front-end appeal of games in order for a higher standard to be set across the platform.
               </p>
               <p>
-                Whether it's epic spell effects, fluid character animations, or atmospheric
-                environmental VFX, I bring passion and precision to every project.
+                Whether it's simple idle effects, character movement, or atmospheric environmental VFX, I'll bring passion to the projects and honor the styles/themes I get instructed on.
               </p>
             </div>
 
